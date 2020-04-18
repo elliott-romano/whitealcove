@@ -1,0 +1,33 @@
+body {
+    color: lightslategray;
+    font-family: 'Source Code Pro', monospace;
+    background-color: lightgrey;
+}
+
+header {
+    color: black;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  /* header h1 {
+    width: 200px;
+  } */
+
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
